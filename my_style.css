@@ -1,0 +1,104 @@
+/*========================>>>>INDEX HEADER CSS OPEN<<<<<<================================*/
+
+#sliderContent {
+    width: 1000px;
+    /* important to be same as image width or wider */
+    position: absolute;
+}
+
+.sliderImage {
+    position: absolute;
+    display: none;
+    width: 1000px;
+}
+
+.sliderImage span {
+    position: absolute;
+    font: 22px Monotype Corsiva, sans-serif;
+    padding: 5px;
+    margin: 0 0 9px 5px;
+    width: 981px;
+    background-color: #3D60A7;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.9;
+    color: #ffffff;
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.sliderImage span strong {
+    font-size: 14px;
+}
+
+.top {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom {
+    bottom: 0;
+    left: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*========================>>>>INDEX HEADER CSS CLOSE<<<<<<===============================*/
+
+/*
+.img_border
+{
+	border: 1px solid #CCCCCC;
+}
+
+.heading
+{
+	font: bold 15px Arial, Helvetica, sans-serif;
+	color: #d7b200;
+	text-decoration: none;
+}.here {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #d7b200;
+	text-decoration: none;
+}
+
+.here a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #d7b200;
+	text-decoration: none;
+}
+*/
+
+.button {
+    width: 150px;
+    height: 30px;
+    background-color: #900;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    margin-left: 840px;
+    margin-left: 840px;
+    margin-bottom: 5px;
+}
+
+.button h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.button h2 a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}

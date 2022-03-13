@@ -1,0 +1,534 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #595959;
+    text-align: justify;
+    padding: 5px 0 0 0;
+}
+
+h2 {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    color: #A00;
+    text-align: center;
+    padding: 5px;
+}
+
+h3 {
+    font-family: geomatric_bold;
+    font-size: 17px;
+    font-weight: normal;
+    padding: 11px 0 5px 4px;
+    color: #264685;
+    background: url(images/sep-heading.jpg);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-family: geomatric_bold;
+    font-size: 17px;
+    font-weight: normal;
+    padding: 11px 0 5px 4px;
+    color: #264685;
+    letter-spacing: 1px;
+}
+
+#wrapper-top {
+    width: 100%;
+    height: 348px;
+    background: url(images/sliderbg-2.jpg);
+    background-repeat: repeat-x;
+}
+
+#wrapper-top-pages {
+    width: 100%;
+    height: 250px;
+    background: url(images/sliderbg-2.jpg);
+    background-repeat: repeat-x;
+}
+
+/*header div start*/
+
+#header-bck {
+    background: #466bb4;
+    /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ2NmJiNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxOTM2NzIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #466bb4 0%, #193672 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #466bb4), color-stop(100%, #193672));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #466bb4 0%, #193672 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #466bb4 0%, #193672 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #466bb4 0%, #193672 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #466bb4 0%, #193672 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#466bb4', endColorstr='#193672', GradientType=0);
+    /* IE6-8 */
+}
+
+header {
+    width: 1000px;
+    margin: auto;
+}
+
+#logo {
+    display: inline-block;
+    width: 103px;
+}
+
+#heading {
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+
+#slogan {
+    display: inline-block;
+    margin: 8px 0 0 137px;
+}
+
+nav {
+    width: 1000px;
+    margin: auto;
+    height: 36px;
+    background-color: #FFF;
+    border-bottom: #4A70BA solid 4px;
+}
+
+nav ul {
+    display: inline;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    height: 36px;
+    line-height: 34px;
+    text-align: center;
+    font-family: 'Geneva', Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #193672;
+    text-transform: capitalize;
+    width: 123px;
+    background: url(images/sep.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    /*border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;*/
+}
+
+nav li a {
+    color: #193672;
+    text-decoration: none;
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Geneva', Tahoma, sans-serif;
+}
+
+nav li a:active {
+    background-color: #1a3776;
+}
+
+nav li a:visited {
+    background-color: #1a3776;
+}
+
+nav li a:hover {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s linear 0s;
+    background-color: #4A70BA;
+    font-size: 12px;
+    height: 36px;
+    font-family: 'Geneva', Tahoma, sans-serif;
+}
+
+nav li ul {
+    position: absolute;
+    display: none;
+    margin: 0 0 0 -40px;
+    z-index: 999999;
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+nav li ul li {
+    float: none;
+    display: inline;
+}
+
+nav li ul li a {
+    width: 165px;
+    position: relative;
+    border-left: 1px solid #004d64;
+    border-right: 1px solid #004d64;
+    border-bottom: 1px solid #004d64;
+    background: #1a3776;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 3px;
+}
+
+nav li ul li a:hover {
+    background: #3A5DA7;
+    color: #FFF;
+    transition: all 0.3s linear 0s;
+}
+
+/*header div end*/
+
+#slider {
+    width: 1079px;
+    margin: auto;
+}
+
+#sliderpages {
+    margin: auto;
+    width: 1000px;
+}
+
+/*content div start*/
+
+.content {
+    width: 1000px;
+    margin: auto;
+}
+
+.school_box {
+    width: 227px;
+    height: auto;
+    display: inline-block;
+    margin: 20px 0 0 20px;
+    vertical-align: top;
+}
+
+.more {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #920000;
+    text-align: right;
+    font-weight: bold;
+    float: right;
+}
+
+.more a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #920000;
+    text-align: right;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.more a:link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #920000;
+    text-align: right;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.schooling-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #595959;
+    text-align: justify;
+    padding: 5px 0 0 0;
+}
+
+.schooling-text ul {
+    display: inline;
+}
+
+.schooling-text li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #595959;
+    list-style-image: url(images/bullet.jpg);
+    margin: 0 0 0 20px;
+    float: left;
+}
+
+@font-face {
+    font-family: geomatric_bold;
+    src: local(geomatric_bold), url('font/geomatric_bold.ttf') format('truetype');
+}
+
+#toppers {
+    font-family: geomatric_bold;
+    font-size: 17px;
+    color: #193672;
+    padding: 10px 0 10px 20px;
+}
+
+.toppers-scroller {
+    width: 1000px;
+    margin: auto;
+    padding: 0 0 20px 0;
+}
+
+.abt-history {
+    float: left;
+    padding: 0 5px 0 0;
+    width: 93px;
+    height: 150px;
+}
+
+/*#pun a
+{
+	font-family:pb_norm;
+	font-size:12px;
+	color:#a60000;
+}
+
+#pun a:link
+{
+	font-family:pb_norm;
+	font-size:12px;
+	text-decoration:none
+	color:#a60000;
+}	
+*/
+
+/*content div end*/
+
+/*pages css start*/
+
+/*left menu css start*/
+
+.left-menu-container {
+    border-radius: 5px;
+    border-radius: 0 0 5px 5px;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-raidus: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    background-color: #E5F5FE;
+    box-shadow: 2px 2px 2px #E5E5E5;
+    -moz-box-shadow: 2px 2px 2px #E5E5E5;
+    -ms-box-shadow: 2px 2px 2px #E5E5E5;
+    -o-box-shadow: 2px 2px 2px #E5E5E5;
+    -webkit-box-shadow: 2px 2px 2px #E5E5E5;
+    margin: 0 0 20px 0;
+    width: 220px;
+    height: auto;
+}
+
+.left-menu-head {
+    background: #3f63aa;
+    /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNmNjNhYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxYTM4NzQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #3f63aa 0%, #1a3874 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3f63aa), color-stop(100%, #1a3874));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #3f63aa 0%, #1a3874 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #3f63aa 0%, #1a3874 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #3f63aa 0%, #1a3874 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #3f63aa 0%, #1a3874 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f63aa', endColorstr='#1a3874', GradientType=0);
+    /* IE6-8 */
+    height: 25px;
+    color: #FFF;
+    font-family: Calibri, Arial;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px 0 0 10px;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-raidus: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    margin: 15px 0 0 0;
+}
+
+.left-menu ul {
+    padding: 0;
+}
+
+.left-menu li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 30px;
+    color: #343434;
+    padding: 5px 0 0 20px;
+    border-top: solid 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px #FFFFFF inset;
+}
+
+.left-menu li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 30px;
+    color: #343434;
+    text-decoration: none;
+}
+
+.left-menu li a.current {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 30px;
+    color: #343434;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*.selected
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 30px;
+	color: #343434;
+	text-decoration:none;
+	font-weight:bold;
+}*/
+
+.table-management td {
+    border: solid 1px #d9f2ff;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #595959;
+}
+
+.table-head td {
+    background-color: #E0F3FD;
+    color: #2C2C2C;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.table-subhead {
+    background-color: #F1F9FE;
+    padding: 10px;
+    font-weight: bold;
+    color: #FF0000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.infra-head {
+    color: #F00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.achievement-head {
+    color: #039;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.infra-italic {
+    color: #F00;
+    font-family: Calibri;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.left-menu li:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 30px;
+    color: #2C2C2C;
+    text-decoration: none;
+    background-color: #D7F0FD;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    text-indent: 4px;
+    text-shadow: 2px 2px 2px #D7D7D7;
+}
+
+.textjustify {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    color: #343434;
+    padding: 0 6px 0 0;
+    line-height: 23px;
+}
+
+.italic {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #F00;
+    padding: 15px;
+}
+
+/*left menu css start*/
+
+/*pages css end*/
+
+footer {
+    background: url(images/footer-bg.jpg);
+    min-height: 169px;
+}
+
+.footer_content {
+    width: 1000px;
+    margin: auto;
+}
+
+.footer_links {
+    width: 250px;
+    display: inline-block;
+}
+
+.footer_left_link {
+    display: inline-block;
+}
+
+.quicklinks {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer_text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FFF;
+}
+
+.footer_text a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FFF;
+}
+
+.img-right {
+    float: right;
+    padding: 0 0 0 7px;
+}
